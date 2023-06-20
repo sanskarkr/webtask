@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    background-image:url(contact.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+}
+.contact .content p{
+    font-weight: 300;
+    color:aqua
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo{
+width:50%;
+display: flex;
+flex-direction: columnn;
+
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display:flex;
+
+}
